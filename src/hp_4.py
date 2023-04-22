@@ -36,7 +36,7 @@ def add_date_range(values, start_date):
     `start_date`.  The date, value pairs are returned as tuples
     in the returned list."""
     vlslen = len(values)
-    a = date_range(start_date, vlslen(values))
+    a = date_range(start_date, vlslen)
     g = list(zip(a, values))
     return g
 
